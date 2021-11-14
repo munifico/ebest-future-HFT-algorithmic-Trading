@@ -449,7 +449,7 @@ class XingApi_Class(Object):
     def login_connect_signal(self):
         print("★★★ 로그인 시도 함수")
         
-        if self.XASession_object.Login("uj02030", "0998bnm", "", 0, 0) == True:
+        if self.XASession_object.Login(ID, PW, "", 0, 0) == True:
             print("★★★ 로그인 성공")
 
         while Object.로그인완료 == False:
